@@ -1,0 +1,20 @@
+<?php
+class Multiplicacion
+{
+
+
+  public $num1, $num2, $result;
+ 
+  public function __construct($num1, $num2)
+  {
+    $this->num1 = $num1;
+    $this->num2 = $num2;
+  }
+
+
+  public function getMultiplicacionFrist(){
+    $result = $this->num1 * $this->num2;
+    return $result;
+  }
+}
+?>
